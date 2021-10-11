@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> NIBM Travel Website</title>
+
+        <!-- Swiper link -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!-- Font awesome cdn link -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+         <!-- CSS link -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+   <body>
+
+    <!-- logo -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <!-- Navigation Bar -->
+
+        <nav class="navbar"> 
+            <a href="#home" >Home<span class="sr-only">(current)</span></a>
+            <a href="#book" >Book</a>
+            <a href="#packages" >Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#team">Our Team</a>
+            <a href="#contact">Contact</a>
+            
+
+        </nav>
+        
+
+        <div class="icon">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+        
+    </header>
+
+
+    <!-- Login Form -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter Your Email">
+            <input type="password" class="box" placeholder="Enter Your Password">
+            <input type="submit" value="Login Now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>forget password?<a href="#">Click Here</a> </p>
+            <p>don't have and account? <a href="#">Register Now</a> </p>
+
+        </form>
+    </div>
+        
+
+    <section class="home" id="home">
+
+        <div class="content">
+        <h3>Adventure is worthwhile</h3>
+        <p>Dicover new places with us, Advanture awaits</p>
+        <a href="#" class="btn">Discover More</a>
+
+        </div>
+
+
+
+        <div class="video-container">
+            <video src="./images/Sri Lanka from above - Cinematic aerial film DJI Mavic 2 Pro.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <!-- Book section -->
+
+    <section class="book" id="book">
+
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./images/travelalert-MilanChudoba.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where To : </h3>
+                    <input type="text" placeholder="Place Name :">
+                </div>
+
+                <div class="inputBox">
+                    <h3>How Many : </h3>
+                    <input type="number" placeholder="Number of Guests :">
+                </div>
+
+                <div class="inputBox">
+                    <h3>Arrivals : </h3>
+                    <input type="date" >
+                </div>
+
+                <div class="inputBox">
+                <h3>Leaving : </h3>
+                <input type="date" >
+            </div>
+
+            <input type="submit" class="btn" value="Book Now">
+            </form>
+
+
+        </div>
+    </section>
+
+    <!-- Packages section -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+            
+        </h1>
+
+        <div class="box-container">
+
+       <div class="box">
+           <img src="./images/ella 1.jpg" alt="">
+           <div class="content">
+               <h3><i class="fas fa-map-marker-alt"></i>Ella</h3>
+               <p>Laid-back Ella draws travelers to Sri Lanka's highlands with its
+                    mountain forests, tea plantations, and relatively cool climate. 
+                    The wildlife-rich region is also home to caves, cascades, and secluded temples—plus the Ella Gap, 
+                    which offers lofty views between a cleft in two hills</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                    <div class="Price :">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+           </div>
+       </div>
+   
+    
+
+       <div class="box">
+        <img src="./images/Nuwara-Eliya1.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Nuwara Eliya</h3>
+            <p>Nuwara Eliya is a city in the tea country hills of central Sri Lanka. The naturally landscaped Hakgala Botanical Gardens displays roses and tree
+             ferns, and shelters monkeys and blue magpies. Nearby Seetha Amman Temple, a colorful Hindu shrine, is decorated with religious figures. Densely forested Galway's 
+            Land National Park is a sanctuary for endemic and migratory bird species, including bulbuls and flycatchers</p>
+
+                 <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+
+                 </div>
+                 <div class="Price :">$100.00 <span>$130.00</span></div>
+                 <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+    <br>
+    <br>
+
+   
+
+
+    <div class="box">
+        <img src="./images/anuradhapura 1.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Anuradhapura</h3>
+            <p>Anuradhapura is a major city in Sri Lanka. It is the capital city of North Central Province, Sri Lanka and the capital of Anuradhapura 
+                District. Anuradhapura is one of the ancient capitals of Sri Lanka, famous for its well-preserved ruins of an ancient Sinhala civilization.</p>
+
+                 <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+
+                 </div>
+                 <div class="Price :">$80.00 <span>$100.00</span></div>
+                 <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+   
+
+
+    <div class="box">
+        <img src="./images/polonnaruwa.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Polonnaruwa</h3>
+            <p>Poḷonnaruwa is the main town of Polonnaruwa District in North Central Province, Sri Lanka. Kaduruwela area is the Polonnaruwa New Town and the other part of 
+                Polonnaruwa remains as the royal ancient city of the Kingdom of Polonnaruwa</p>
+
+                 <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+
+                 </div>
+                 <div class="Price :">$100.00 <span>$120.00</span></div>
+                 <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+    
+
+
+    <div class="box">
+        <img src="./images/arugambay 1.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Arugam Bay Beach</h3>
+            <p>Arugam Bay, known locally as "Arugam Kudah", is situated on the Indian Ocean in the dry zone of Sri Lanka's 
+                southeast coast, and a historic settlement of the ancient Batticaloa Territory</p>
+
+                 <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+
+                 </div>
+                 <div class="Price :">$120.00 <span>$150.00</span></div>
+                 <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+
+   
+       
+ </div>
+  
+   
+
+
+    </section>
+
+
+<!-- Services section -->
+<section class="services" id="services">
+    
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+        
+    </h1>
+
+    <div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>Best Hotels</h3>
+        <p>The best hotels in Sri Lanka, chosen by our expert, including luxury hotels, boutique hotels, budget hotels and Sri Lanka hotel deals.
+             Read the reviews and book.</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Safe Guide</h3>
+        <p>Tourist guides provides the visitor with in depth knowledge in their mother tongue, smoothing creases and wrinkles that is bound to occur
+             while touring a foreign country for the first time. It is best to choose a tourist guide who had been professionally trained and authorized by 
+             Sri Lanka tourism, who are categorized as National Tourist Guides or Chauffeur Tourist Guides. The National Tourist Guides caters to a large group 
+             of tourists traveling in luxury coaches driven by reserved drivers while Chauffeur Tourist Guides would be guiding small 
+            groups conveyed in small vans and luxury cars..</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>Around the World</h3>
+        <p>Sri Lanka, formerly Ceylon, island country lying in the Indian Ocean and separated from peninsular India by the Palk Strait. It is located between latitudes 5°55′ 
+            and 9°51′ N and longitudes 79°41′ and 81°53′ E and has a maximum length of 268 miles (432 km) and a maximum width of 139 miles (224 km)..</p>
+    </div>
+    </div>
+</section>
+
+
+<!-- Gallery section -->
+
+<section class="gallery" id="gallery">
+
+     
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+        
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./images/unnamed.jpg" alt="">
+            <div class="content">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/travel37.jpg" alt="">
+            <div class="content">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/travel-world.jpg" alt="">
+            <div class="content">
+a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Ride-That-Cute-Train-Around-Ella.jpg" alt="">
+            <div class="content">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/IMG_1786.jpg" alt="">
+            <div class="content">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/images.jpg" alt="">
+            <div class="content">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/DSC_0153.jpg" alt="">
+            <div class="content">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/download.jpg" alt="">
+            <div class="content">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/banner-slide3.jpg" alt="">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/1UV4Txdz1581086845-1581086845.4x.jpg" alt="">
+            <div class="content">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/01.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="team" id="team">
+
+    <h1 class="heading">
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span class="space"></span>
+        <span>t</span>
+        <span>e</span>
+        <span>a</span>
+        <span>m</span>
+        
+    </h1>
+    
+
+    <div class="swiper-container team-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/FHCP7377.JPG" alt="">
+                    <h3>Tharindu Yalegama</h3>
+                    <p>KADCSD20.1F-016 </p>
+                </div>
+            </div>
+  
+
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/WhatsApp Image 2021-08-18 at 08.50.35.jpeg" alt="">
+                    <h3> Chathura Madusanka Aththanayaka</h3>
+                    <p>KADSE20.1F-045 </p>
+                </div>
+            </div>
+     
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/983013309V_KAHNDISM211F006_AWRMRGWKGB_Girihagama.jpg" alt="">
+                    <h3> Kavindu Girihagama</h3>
+                    <p>KADCSD20.1F-018 </p>
+                </div>
+            </div>
+   
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/WhatsApp Image 2021-08-18 at 08.39.36.jpeg" alt="">
+                    <h3> D.M.T.L Dissanayaka </h3>
+                    <p>KADSE20.1F-019 </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/WhatsApp Image 2021-08-18 at 09.39.25.jpeg" alt="">
+                    <h3> P.S.P.B wijesinghe </h3>
+                    <p>KADSE20.1F-045 </p>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/damidu.jpg" alt="">
+                    <h3> M.S. Damindu Malinda Menikpura </h3>
+                    <p>KADCSD20.1F-012 </p>
+
+                </div>
+            </div>
+
+    </div>
+    
+</section>
+
+
+
+<!-- Contact Section -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="./images/transparent1.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="emain" placeholder="email">
+            </div>
+
+            <div class="inputBox" >
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+
+        </form>
+    </div>
+</section>
+
+<!-- Footer section -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About Us : <br></h3>
+            <p> This is a Web Application Development Course Work 2 (GROUP PROJECT.) <br> NIBM TRAVEL WEBSITE....</p>
+        </div>
+
+        <div class="box">
+            <h3>Kandy Branch : <br></h3>
+            <p>KADCSD20.1F-016 <space> (LEADER) <space> create the HTML part.</space> <br> KADCSD20.1F-018 <space> connect the database.</space><br> KADSE20.1F-019 <space>create the CSS part.</space><br> KADSE20.1F-045 <space>create the javaScript part.</space><br> KADCSD20.1F-012 <space> Giving us information.</space></p>
+            <P>We created this website using and collaborating with our shared server pluging.</P>
+
+        
+
+        <h1 class="credit"> created by <span> DCSD & DSE group </span> | all right reserved!</h1>
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+   
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   </body>
+
+   <script src="./script.js" ></script>
+</html>
